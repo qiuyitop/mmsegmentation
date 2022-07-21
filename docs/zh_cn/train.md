@@ -1,5 +1,5 @@
 ## 训练一个模型
-train.md zh_cn
+
 MMSegmentation 可以执行分布式训练和非分布式训练，分别使用 `MMDistributedDataParallel` 和 `MMDataParallel` 命令。
 
 所有的输出(日志 log 和检查点 checkpoints )将被保存到工作路径文件夹里，它可以通过配置文件里的 `work_dir` 指定。
